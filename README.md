@@ -8,5 +8,6 @@ This is website is about the korean director BONG JOON-HO
 -It was made by beinger in use CSS, so of course you'll see a lot of mistake.
 -The social media accounts isn't real, because it isn't a normal site.
 -This website isn't responsive, so you can see it well just in computers.
+-This website took 3 weeks to create it.
 
 **this website made by *Rahaf***
