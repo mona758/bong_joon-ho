@@ -87,10 +87,11 @@ nav a.active{
     content: "MEMORIES OF MURDER";
     position: absolute;
     top:10%;
-    right: 15%;
+    left: 5%;
     font-size: 7rem;
     font-weight: bolder;
     color: #AFB3B7;
+    width: 100%:
 }
 
 .header::before{
@@ -112,7 +113,7 @@ nav a.active{
     font: 'poppins';
     margin: 1rem;
     color: #717476;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .header img {
