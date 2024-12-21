@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<!-- 
+- - - - - - - - - - - - html - - -css
+1.banar bar- - >⭐finished-finished
+2.main section - - >⭐finished- finished 
+3.sections bar - - >⭐finished - finished
+4.movies section - >⭐finished - finished
+5.gallery section- > ⭐finished - finished
+6.footer - - - - - >⭐finished- finished
+
+ -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A virtual museum dedicated to the works of Bong Joon-ho">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Bong Joon-ho</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <!-- header -->
+    
+    <header>
+        <a href="#" class="pagename">Home</a>
+        <!-- navigation bar -->
+        <nav>
+            <a href="main.html" class="active"> Home</a>
+            
+            <a href="biography/biography.html" >Biography</a>
+            
+            <a href="films/films.html" >Films</a>
+            <a href="gallery/gallery.html" >Gallery</a>
+            
+            <a href="#footer" >Contact</a>
+        </nav>
+    </header>
+    
+   
+   
+    
+    <!-- main section -->
+    
+    <section class="firstpage">
+        <img src="bong_joon-ho.jpg" alt="bong joon-ho" class="main-img">
+        <div>
+            <h1>BONG JOON-HO</h1>
+            <p>Blurring the Lines Between Social Commentary and Suspense</p>
+              <h4>Bong Joon-ho is a prominent South Korean director and screenwriter, known for his unique ability to blend different cinematic genres to deliver films that are both socially profound and commercially appealing. With films such as (Parasite - 2019) and (Memories of Murder - 2003), Bong has become one of the most prominent names in world cinema. His style is characterized by capturing complex social issues, such as poverty and class, and reframing them in stories filled with suspense, dark comedy, and psychological elements. His huge success with (Parasite) , which won four Academy Awards including Best Picture, made it the first non-English language film to win the prestigious award, cementing his position as one of the most influential directors in contemporary cinema.</h4>
+              <a href="biography/biography.html"> <h6> Read More </h6> </a>
+        </div>
+    </section> 
+    
+    
+    
+    <!-- sections bar -->
+   
+    <section>
+        <ul>
+            <li> <a href="#movies">Movies</a> </li>
+            <li> <a href="#gallery">Gallery</a> </li>
+            <li> <a href="#footer">Contact</a> </li>
+        </ul>
+    </section>
+    
+    
+    
+    <!-- movies -->
+    
+    <section class="movies" id="movies">
+        
+        <h2>Movies</h2>
+        
+        <!-- views of movies -->
+        <div class="slider" style="
+            --width: 400px;
+            --height: 800px;
+            --quantity: 6;
+            ">
+            <!-- slider -->
+            <div class="list">   
+                <div class="item" style="--position: 1">
+                    <a href="films/movies/snowpiercer/snowpiercer.html" ><img src="films/images/snowpiercer.jpg" alt="snowpiercer" ></a>
+                </div>
+                
+                 <div class="item" style="--position: 2">
+                     <a href="films/movies/mother/mother.html"><img src="films/images/mother.jpg" alt="mother" ></a>
+                 </div>
+            
+                <div class="item" style="--position: 3" >
+                    <a href="films/movies/okja/okja.html"><img src="films/images/okja.jpg" alt="okja" ></a>
+                </div>
+            
+                <div class="item" style="--position: 4">
+                    <a href="films/movies/memories-of-murder/memories.html"><img src="films/images/memories_of_murder.jpg" alt="memories-of-murder" ></a>
+                </div>
+            
+                <div class="item" style="--position: 5">
+                    <a href="films/movies/parasite/parasite.html" ><img src="films/images/parasite.jpg" alt="parasite" ></a>
+                </div>
+            
+                <div class="item" style="--position: 6">
+                    <a href="films/movies/the-host/host.html"><img src="films/images/the_host.jpg" alt="the-host" ></a>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    
+   
+   
+    <!-- gallery -->
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="wrapper">
+        <div class="container">
+            <input type="radio" name="slide" id="c1" checked>
+            <label for="c1" class="card">
+                <div class="row">
+                    <div class="icon">1</div>
+                    <div class="description">
+                        <h4>Bong joon ho</h4>
+                        <p></p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c2" >
+            <label for="c2" class="card">
+                <div class="row">
+                    <div class="icon">2</div>
+                    <div class="description">
+                        <h4>Bong joon ho</h4>
+                        <p>with his films</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3" >
+            <label for="c3" class="card">
+                <div class="row">
+                    <div class="icon">3</div>
+                    <div class="description">
+                        <h4>Bong joon ho</h4>
+                        <p>with Oscars</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4" >
+            <label for="c4" class="card">
+                <div class="row">
+                    <div class="icon">4</div>
+                    <div class="description">
+                        <h4>Parasite</h4>
+                        <p>one of his movies</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+    </section>
+   
+   
+    
+    
+    <!-- Footer -->
+    
+    <footer id="footer">
+        
+        <!-- social media icons go to a blank page with laugh -->
+        <div class="social-icons">
+                <a href="social_media.html"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="social_media.html"><i class="fa-brands fa-github"></i></a>
+                <a href="social_media.html"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="social_media.html"><i class="fa-brands fa-instagram"></i></a>     
+        </div>
+        
+           <!-- my final touch -->
+        <p>Made with love by Rahaf🌼</p>
+    </footer>
+</body>
+</html>
