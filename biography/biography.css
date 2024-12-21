@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jua&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family:'Poppins','sans-serif, 'Jua';
+}
+
+.eb-garamond-<uniquifier> {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+   /* overflow-x: hidden;*/
+    background-color: #28282a;
+    color: white;
+    min-height:100vh;
+}
+
+
+
+
+
+/* nav */
+
+header{
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(5px 5px 5px rgba(225,255,255,0.3));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.pagename{
+    font-size: 3rem;
+    color: #f0f0f0;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.pagename:hover{
+    transform: scale(1.1);
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    color: #708090;
+    border-bottom: 3px solid #708090;
+}
+
+
+
+
+
+
+
+.head {
+    position: relative;
+}
+
+.head img {
+    filter: grayscale(1);
+    width: 100%;
+    height: auto;
+}
+
+.head .memories, .head .parasite{
+    position: absolute;
+    width: 160px;
+    height: auto;
+}
+
+.head .memories img, .head .parasite img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.head .memories {
+    top: 25%;
+    right:19%;
+}
+
+.head .parasite {
+    top: 25%;
+    right:2%;
+}
+
+
+
+.head .title {
+    position: absolute;
+    top: 13%;
+    left:10%;
+}
+
+.head .title h1 {
+    font: 'Poppins';
+    font-size: 6rem;
+    font-weight: bolder;
+    color: #f0f0f0;
+    text-shadow: 2px 3px 5px #708090;
+    text-transform: capitalize;
+    trandition: text-shadow transform 0.2s ease;
+}
+
+.head .title h1:hover {
+    text-shadow: 2px 3px 10px #708090;
+    transform: scale(1.02);
+}
+
+.head .title h3 {
+    font-weight: 350;
+    font-style: normal;
+    color:#f0f0f0;
+    font-size: 40px;
+    text-indent: 30px;
+}
+
+.head .title h4 {
+    font-size: 4rem;
+    font-weight: 100;
+    color:#f0f0f0;
+    width: 20%;
+}
+
+.head .title p {
+     font-size: 1.8rem;
+    font-weight: 60;
+    color:#f0f0f0;
+    width: 25%;
+}
+
+
+
+
+
+/*Sections bar */
+.sections-bar ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.sections-bar ul a li{
+    font: Poppins;
+    filter: drop-shadow(3px);
+    list-style:none;
+    text-decoration: none;
+    font-size: 2.6rem;
+    margin:1.3em;
+    color: white;
+    transition:0.5s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.sections-bar a li:hover {
+    transform: scale(1.2);
+    color: #708090;
+    border-bottom: 3px solid #708090;
+}
+
+
+
+
+/*Sections*/
+.sections {
+    display: flex;
+    width:100%;
+}
+
+.sections .container {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+    align-items: left;
+    margin: 6px 6px;
+}
+
+.sections .content{
+    width: 100%;
+    height: fit-content;
+    overflow-x: hidden;
+    margin:15px;
+    /*float: left;*/
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    background: rgb(26,26,26);
+}
+
+.sections .content img {
+    width:100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sections .content .u-name{
+    position: absolute;
+    top:2%;
+    right: 5%;
+    font-weight: bold;
+}
+
+.sections .content h4{
+    font: "EB Garamond";
+    font-weight: bold;
+    padding: 20px;
+    font-size: 3rem;
+}
+
+.sections .content p{
+    font: "EB Garamond";
+    padding: 30px 20px;
+    font-size: 1.5rem;
+}
+
+.sections .content p::first-letter {
+    font: "Playfair Display";
+    font-weight: bold;
+    padding: 20px ;
+    font-size: 5rem;
+    color: #708090;
+}
+
+
+
+
+
+/* footer */
+
+#footer {
+    height: fit-content;
+    background:#708090;
+    width:100%;
+    margin-top:7rem;
+} 
+
+.social-icons {
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;
+    width:100%;
+}
+
+.social-icons a{
+    width: 8rem; 
+    height: 8rem;
+    background-color: transparent;
+    /*border: 0.2rem solid #28282a;*/
+    font-size: 5rem;
+   /* border-radius: 40%;*/
+    margin: 2rem 4rem ;
+    transition: 0.5 ease;
+    color: #28282a;
+    justify-content: center;
+    
+}
+
+.social-icons a:hover{
+    color: #28282a;
+    transform: scale(1.3) translateY(-5px);
+    /*background-color: #28282a;*/
+    box-shadow: 0  0 25px #28282a;
+}
+
+#footer p {
+    margin: 10px 0px;
+    padding:10px;
+    display: inline-flex;
+    justify-content: center; 
+    
+    width:100%;  
+    font-size: 25px;
+}
