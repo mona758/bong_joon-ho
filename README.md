@@ -2,6 +2,7 @@
 This is website is about the korean director BONG JOON-HO
 
 **NOTE**
+
 -This website was created by HTML & CSS.
 -It's for training purpose, made just for use programing concepts.
 -It was made by beinger in use CSS, so of course you'll see a lot of mistake.
