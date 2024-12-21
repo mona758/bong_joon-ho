@@ -1,7 +1,7 @@
 # bong_joon-ho
 This is website is about the korean director BONG JOON-HO
 
-**NOTE**
+**NOTES**
 
 - This website was created by HTML & CSS.
 - It's for training purpose, made just for use programing concepts.
